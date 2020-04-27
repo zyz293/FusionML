@@ -92,7 +92,7 @@ def remove_missing_test(X, Y):
 
 # for sphere function dataset
 num_repeat = 10
-with open('data.pkl', 'r') as f:
+with open('data.pkl', 'rb') as f:
 	data = pickle.load(f)
 feature = data['feature']
 label = data['label']
@@ -186,7 +186,7 @@ for missing_data_rate in missing_data_rate_list:
 	print (a)
 	logging.append(a)	
 
-with open('logging_v4_repeat.csv', 'w') as f:
+with open('results.csv', 'w') as f:
 	writer = csv.writer(f, delimiter=',')
 	writer.writerow(['if fusion', 'missing_data_rate', 'missing_feature_number', 'MAE', '#_pca', '#_data'])
 	for i in range(len(logging)):
