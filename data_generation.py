@@ -29,15 +29,15 @@ for d in dd:
 		data.append(temp)
 data = np.asarray(data)
 label = np.asarray(label)
-print data.shape, np.min(data), np.max(data)
-print label.shape, np.min(label), np.max(label)
-print len(np.unique(label))
+print (data.shape, np.min(data), np.max(data))
+print (label.shape, np.min(label), np.max(label))
+print (len(np.unique(label)))
 
 # extract feature with vgg16
 feature = data.reshape((6000, 32, 32))
 feature = np.expand_dims(feature, axis=3)
 feature = np.repeat(feature, 3, axis=3)
-print feature.shape
+print (feature.shape)
 
 layer_name = 'block5_pool'
 input_tensor = Input(shape=(32,32,3))
@@ -47,16 +47,16 @@ model.summary()
 
 feature = model.predict(feature)
 feature = np.mean(feature, axis=(1,2))
-print feature.shape
+print (feature.shape)
 
 final_feature = []
 for i in range(0, len(feature), 5):
 	final_feature.append(feature[i:i+5])
 final_feature = np.asarray(final_feature)
-print final_feature.shape
+print (final_feature.shape)
 
 dic = {'data': data, 'feature':final_feature, 'label': label}
-with open('data.pkl','w') as f:
+with open('data.pkl','wb') as f:
 	pickle.dump(dic, f)
 
 
