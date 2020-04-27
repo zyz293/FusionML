@@ -13,17 +13,17 @@ To use this software, what the algorithm requires as input are a numpy array. In
 * Scipy 1.2.0
 
 ## Files ##
-1. `model_training.py`: The script applies the proposed method to train a prediction model on shallow-wide and heterogeneous-sparse scientific dataset. The results will be saved in 'results.csv' file. We train the model on artificial dataset No.1 as an example.
-2. `data_generation.pkl`: The script is used to generate dataset, and we use the generation of artificial dataset No.1 as an example. The generated data will be saved in 'data.pkl' file
-4. `data` folder: This folder includes four datasets used in this work. 'data.pkl' is the artificial dataset No.1, and 'data_RASTRIGIN.pkl' is the artificial dataset No.2. 'XRD dataset' is available on request, and 'Toyota dataset' is not public available due to confidential reasons. 
+1. `model_training.py`: The script applies the proposed method to train a prediction model on shallow-wide and heterogeneous-sparse scientific dataset. The results will be saved in `results.csv` file. We train the model on artificial dataset No.1 as an example.
+2. `data_generation.pkl`: The script is used to generate dataset, and we use the generation of artificial dataset No.1 as an example. The generated data will be saved in `data.pkl` file
+4. `data` folder: This folder includes four datasets used in this work. `data.pkl` is the artificial dataset No.1, and `data_RASTRIGIN.pkl` is the artificial dataset No.2. `XRD dataset` is available on request, and `Toyota dataset` is not public available due to confidential reasons. 
 
 
 ## How to run it
-1. Run commend below, which generates the dataset and save it in 'data.pkl' file.
+1. Run commend below, which generates the dataset and save it in `data.pkl` file.
    ```
    python data_generation.py
    ```
-1. Run commend below, which uses proposed method to train the model and save results in 'results.csv' file.
+1. Run commend below, which uses proposed method to train the model and save results in `results.csv` file.
    ```
    python model_training.py
    ```
