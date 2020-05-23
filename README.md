@@ -1,5 +1,5 @@
 # Heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset
-This software is an application of heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset. The efficacy of the proposed approach is tested on four datasets, including two artificial dataset and two real world dataset. 
+This software is an application of heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset. The efficacy of the proposed approach is tested on four datasets, including two artificial dataset and one real world dataset. 
 
 To use this software, what the algorithm requires as input are a numpy array. In this software, a machine learning framework including transfer learning, heterogeneous feature fusion, principal component analysis and gradient boosting is used to solve curse of dimensionality, handle data with missing images, and train predictive models on heterogeneous scientific data. The detailed drscription about data preprocessing and model can be found in the published paper given below.
 
@@ -15,7 +15,7 @@ To use this software, what the algorithm requires as input are a numpy array. In
 ## Files ##
 1. `model_training.py`: The script applies the proposed method to train a prediction model on shallow-wide and heterogeneous-sparse scientific dataset. The results will be saved in `results.csv` file. We train the model on artificial dataset No.1 as an example.
 2. `data_generation.py`: The script is used to generate dataset, and we use the generation of artificial dataset No.1 as an example. The generated data will be saved in `data.pkl` file
-4. `data` folder: This folder includes four datasets used in this work. `data.pkl` is the artificial dataset No.1, and `data_RASTRIGIN.pkl` is the artificial dataset No.2. `XRD dataset` is available on request, and `Toyota dataset` is not public available due to confidential reasons. 
+4. `data` folder: This folder includes four datasets used in this work. `data.pkl` is the artificial dataset No.1, and `data_RASTRIGIN.pkl` is the artificial dataset No.2. `Toyota dataset` is not public available due to confidential reasons. 
 
 
 ## How to run it
