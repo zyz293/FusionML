@@ -29,10 +29,10 @@ To use this software, what the algorithm requires as input are a numpy array. In
    ```
 
 ## Acknowledgement
-
+This work was supported in part by Toyota Motor Corporation and NIST CHiMaD (70NANB19H005).
 
 ## Related Publications ##
-Heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset (in preparation)
+Zijiang Yang, Tetsushi Watari, Daisuke Ichigozaki, Akita Mitsutoshi, Hiroaki Takahashi, Yoshinori Suga, Wei-keng Liao, Alok Choudhary, Ankit Agrawal. "Heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse industrial datasets". Accepted by 1st International Workshop on Industrial Machine Learning @ ICPR 2020.
 
 ## Contact
 Zijiang Yang <zyz293@ece.northwestern.edu>; Ankit Agrawal <ankitag@ece.northwestern.edu>
