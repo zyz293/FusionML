@@ -1,5 +1,5 @@
-# Heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset
-This software is an application of heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset. The input is a numpy array, containing the images and target values. In this software, a machine learning framework including transfer learning, heterogeneous feature fusion, principal component analysis and gradient boosting is used to solve curse of dimensionality, handle data with missing images, and train predictive models on heterogeneous scientific data. The detailed description about data preprocessing and model can be found in the published paper given below.
+# Heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse industrial dataset
+This software is an application of heterogeneous feature fusion based machine learning on shallow-wide and heterogeneous-sparse scientific dataset. The input is a numpy array, containing the images and target values. In this software, a machine learning framework including transfer learning, heterogeneous feature fusion, principal component analysis and gradient boosting is used to solve curse of dimensionality, handle data with missing images, and train predictive models on heterogeneous industrial data. The detailed description about data preprocessing and model can be found in the published paper given below.
 
 ## Requirements ##
 * Python 3.6.3 
