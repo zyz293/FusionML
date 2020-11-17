@@ -19,9 +19,6 @@ To use this software, what the algorithm requires as input are a numpy array. In
 
 
 ## How to run it
-1. Run commend below, which generates the dataset and save it in `data.pkl` file.
-   ```
-   python data_generation.py
    ```
 1. Run commend below, which uses proposed method to train the model and save results in `results.csv` file.
    ```
