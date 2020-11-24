@@ -16,7 +16,6 @@ This software is an application of heterogeneous feature fusion based machine le
 
 
 ## How to run it
-   ```
 1. Run commend below, which uses proposed method to train the model and save results in `results.csv` file.
    ```
    python model_training.py
